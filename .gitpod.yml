@@ -1,5 +1,5 @@
 tasks:
-  - init: yarn
+  - init: yarn && clear
 github:
   prebuilds:
     pullRequestsFromForks: true
