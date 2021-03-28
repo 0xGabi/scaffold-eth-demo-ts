@@ -14,7 +14,7 @@ tasks:
     openMode: split-right
 ports:
   - port: 3000
-    onOpen: open-browser
+    onOpen: open-preview
   - port: 8545
     onOpen: ignore
 github:
@@ -23,8 +23,6 @@ github:
     addComment: true
 vscode:
   extensions:
-    - sdras.night-owl
-    - vscode-icons-team.vscode-icons
     - dbaeumer.vscode-eslint
     - esbenp.prettier-vscode
     - juanblanco.solidity
