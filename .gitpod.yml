@@ -5,18 +5,16 @@ tasks:
       gp sync-done install
     command: yarn start
   - name: Chain
-    init: >
-      gp sync-await install &&
-      yarn chain &&
-      gp sync-done chain
+    init: gp sync-await install
+    command: yarn chain
     openMode: split-right
   - name: Deployment
-    init: gp sync-await chain
+    init: gp sync-await install
     command: yarn deploy
     openMode: split-right
 ports:
   - port: 3000
-    onOpen: open-browser
+    onOpen: ignore
   - port: 8545
     onOpen: ignore
 github:
