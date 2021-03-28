@@ -12,6 +12,9 @@ tasks:
     init: gp sync-await install
     command: yarn deploy
     openMode: split-right
+ports:
+  - port: 3000
+    onOpen: open-preview
 github:
   prebuilds:
     pullRequestsFromForks: true
