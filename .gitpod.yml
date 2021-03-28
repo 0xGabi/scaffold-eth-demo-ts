@@ -1,5 +1,13 @@
 tasks:
-  - init: yarn
+  - name: App
+    init: yarn
+    command: yarn start
+  - name: Chain
+    command: yarn chain
+    openMode: split-right
+  - name: Deployment
+    command: yarn deploy
+    openMode: split-right
 github:
   prebuilds:
     pullRequestsFromForks: true
