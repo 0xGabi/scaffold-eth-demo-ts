@@ -1,11 +1,15 @@
 tasks:
   - name: App
-    init: yarn
+    init: >
+      yarn &&
+      gp sync-done install
     command: yarn start
   - name: Chain
+    init: gp sync-await install
     command: yarn chain
     openMode: split-right
   - name: Deployment
+    init: gp sync-await install
     command: yarn deploy
     openMode: split-right
 github:
@@ -19,4 +23,3 @@ vscode:
     - dbaeumer.vscode-eslint
     - esbenp.prettier-vscode
     - juanblanco.solidity
-
