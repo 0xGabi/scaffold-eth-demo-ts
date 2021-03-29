@@ -1,4 +1,4 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/0xGabi/scaffold-eth-demo)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/0xGabi/scaffold-eth-demo-ts)
 # 🏗 scaffold-eth
 
 > is everything you need to get started building decentralized applications powered by Ethereum
