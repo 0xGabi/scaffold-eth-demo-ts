@@ -8,6 +8,7 @@ packages/hardhat/*.txt
 **/node_modules
 packages/hardhat/artifacts
 packages/hardhat/deployments
+packages/hardhat/typechain
 packages/react-app/src/contracts
 packages/hardhat/cache
 
